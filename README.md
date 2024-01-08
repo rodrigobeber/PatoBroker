@@ -5,7 +5,9 @@ The UIX is not my concern, so I'll start using QtFramework for simple demonstrat
 
 *** UNDER CONSTRUCTION (started in 2024, january 6th) ***
 
-Features:
+Features
+--------
+
 - Cross-platform (Windows, Linux, MacOS)
 - Can be easily modified to connect on a different API (I'm starting with Yahoo Finance)
 - Can be easyly modified to use a different GUI Framework
@@ -17,13 +19,7 @@ Features:
 
 Some notes
 ----------
-
-For development:
 - Install Qt6: apt-get installqt6-base-dev
-
-For debug in VSCode:
-- rm -fr build/* ; cd build ; cmake -DCMAKE_BUILD_TYPE=Debug .. ; make
-
-To run in VSCode terminal:
-- cd build ; unset GTK_PATH ; make ; ./patobroker
+- For debug in VSCode: rm -fr build/* ; cd build ; cmake -DCMAKE_BUILD_TYPE=Debug .. ; make
+- To run in VSCode terminal: cd build ; unset GTK_PATH ; make ; ./patobroker
 
