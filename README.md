@@ -1,6 +1,7 @@
-This project is a real-time read-only trading platform using C++17
+This project is a real-time read-only trading platform using C++17.
 
-The goal is Low-Latency skill demonstration using WebSockets and multi-threading.
+The goal is Low-Latency skills demonstration using WebSockets and multi-threading.
+
 NOTE: The UIX is not my concern, so I'll start using QtFramework for simple demonstration.
 
 *** UNDER CONSTRUCTION (started in 2024, january 6th) ***
